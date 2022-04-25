@@ -68,37 +68,38 @@
 .raleway-header {
   font-weight: 900;
   font-style: normal;
-  font-family: 2rem/4rem;
+  font-size: 2rem/4rem;
 }
 
 .raleway-body {
   font-weight: 900;
   font-style: normal;
-  font-family: 2rem/4rem;
+  font-size: 2rem/4rem;
 }
 
 .lobster {
 font-family: 'Lobster Two', cursive;
 font-weight: 700;
 font-style: normal;
-font-family: 2rem/4rem 
+  font-size: 2rem/4rem;
 }
 
 .playfair {
 font-family: 'Playfair Display', serif;
 font-weight: 400;
 font-style: normal;
-font-family: 2rem/4rem 
+  font-size: 2rem/4rem;
 }
 
 .raleway-body {
   font-weight: 900;
   font-style: normal;
-  font-family: 2rem/4rem;
+  font-size: 2rem/4rem;
 }
 
 .mb-3 {
     background-color: #e5e5e5;
     width: 80%;
     padding: 1%;
+    margin: 1%;
 }
