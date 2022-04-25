@@ -103,3 +103,16 @@ font-style: normal;
     padding: 1%;
     margin: 1%;
 }
+
+.libre-header {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem/4rem;
+}
+
+.libre-body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
