@@ -54,3 +54,26 @@ h1, h2, h3, h4, h5 {
 .carousel-caption {
     background-color: #00000e80;
 }
+
+@media screen and (max-width:600px) {
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .center {
+        width: 90%;
+    }
+
+    .modal-content, .modal-body img {
+        width: 98%;
+        height: 98%;
+    }
+}
+
+.center-sm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
