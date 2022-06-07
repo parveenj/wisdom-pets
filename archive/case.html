@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Parveen's Site</title>
   </head>
@@ -22,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
+              <a class="nav-link" href="index.html">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="gallery.html">My Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="case.html">My Case Study</a>
+              <a class="nav-link active" aria-current="page" href="case.html">My Case Study</a>
             </li>
           </ul>
         </div>
@@ -40,15 +38,41 @@
       <div class = "row">
         <div id="content">
 
+        <img src="img/image-4.png" class="img-fluid" alt="...">
+
         <h2>A little about Parveen</h2>
     
         <p>Welcome to my design system. I based it on the atomic design system that is popular on the web nowadays. I learned about this methodology when researching design systems and it spoke to me. You see, I studied biological sciences and I thought I would be a research scientist before I became a designer.</p>
                   
         <p>The categories I identfied for my design system is Atoms, Molecules, and Organisms. The Atoms are the building blocks for all web components, the molecules combine Atoms for interactive components, and the Organisms are groups of Molecules for advanced components. Based on other practices of Atomic design, Atoms consist of logos, colors, images, and typography. Molecules are buttons and widgets and Organisms are page level templates that consist of many Molecules.</p>
 
-        </div>   
-      </div>  
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>  
     </div>
+    </div> 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
